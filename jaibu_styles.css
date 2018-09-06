@@ -1,0 +1,60 @@
+body {
+    background-color: powderblue;
+	font-family: sans-serif;
+}
+a:hover { 
+    background-color: yellow;
+}
+.centerID {
+	text-align: center;
+}
+.allSpans {
+	font-weight: bold;
+	color: red;
+}
+.tableLeft {
+	text-align: left;
+}
+.theQuotes {
+	color:purple;
+	font-style:italic;
+}
+.theQuoter {
+	color:darkgreen;
+	font-weight: bold;
+}
+.makeEmpty {
+	list-style-type: none;
+}
+.bulletList {
+	list-style-type: disc;
+}
+.numberedList {
+	list-style-type: decimal;
+}
+#myPhoto {
+	height: 200px;
+	width: 225px;
+}
+#androidIMG {
+	float: right;
+    padding: 10px;
+	height: 50px;
+	width: 50px;
+}
+#androidIMG1 {
+	float: left;
+    padding: 10px;
+	height: 50px;
+	width: 50px;
+}
+#firstTable {
+	width: 80%;
+	margin-left:auto; 
+    margin-right:auto;
+	border: 0;
+	table-layout: fixed
+}
+tr:nth-child(even) {
+    background-color: #f2f2f2
+}
