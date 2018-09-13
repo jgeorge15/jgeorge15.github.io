@@ -1,0 +1,166 @@
+/*Jaibu George 001929658 program1.css*/
+body {
+	background-color:#FFCC00;
+	font-family: Georgia;
+	font-weight: normal;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+ul {
+	list-style-image: url('bullet.jpg');
+}
+table {
+	width: 75%;
+	background-color:#FFFFE0;
+	border: 0px;
+}
+td {
+	padding-left: 5px;
+}
+a:link {
+    text-decoration: none;
+}
+a:visited {
+    text-decoration: none;
+}
+a:visited {
+    color: white;
+}
+a:hover {
+    color: black;
+}
+.evenQuote {
+	text-align: left;
+	font-weight: bold;
+	font-size: 20px;
+}
+.oddQuote {
+	text-align: right;
+	font-weight: bold;
+	font-size: 20px;
+}
+.inQuotes {
+	color: red;
+}
+.foodPic {
+	transition: transform .5s;
+}
+.foodPic:hover {
+	transform: scale(1.1)
+}
+.foodPic1{
+	display: block;
+	height:20%;
+	width:20%;
+	margin-left: auto;
+	margin-right: auto;
+	transition: transform .5s;
+}
+.foodPic1:hover {
+	position:relative;
+    top:-25px;
+    left:-35px;
+    width:500px;
+    height:auto;
+    display:block;
+    z-index:999;
+	transform: scale(1.5)
+}
+#recipeHead {
+	color:  #A4A400;
+	background-color: #F0F0F0;
+	text-align: center;
+	font-family: Century Gothic;
+	letter-spacing: 5px;
+}
+#subTitle {
+	color:  #A4A400;
+	background-color: #F0F0F0;
+	text-align: center;
+	font-family: Century Gothic;
+	letter-spacing: 3px;
+}
+#tableHead{
+	font-weight: bolder;
+	background-color: #f7eaaa;
+	text-align: center;
+	font-family: Century Gothic;
+}
+#tableHead1{
+	font-weight: bold;
+	font-family: Century Gothic;
+}
+.forPrep {
+	font-weight: bolder;
+	font-size: 20px;
+}
+#forPrep1 {
+	font-size: 20px;
+}
+.forPrep2 {
+	font-size: 23px;
+	font-weight: bolder;
+}
+.tdBackground {
+	background-color: black;
+	color: white;
+	width: 80%;
+	text-align: right;
+	background: linear-gradient(to right, black 100%, lightgray 0%);
+}
+.navBar {
+	list-style-type: none;
+    margin: 0;
+    padding: 20;
+    overflow: hidden;
+    background-color: #333;
+	width: 200px;
+}
+.navList {
+	display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+	float: left;
+}
+#descriptions {
+	background-color: #fff2b2;
+}
+#third {
+	background: linear-gradient(to right, black 90%, #FFFFE0 10%);
+}
+#fourth {
+	background: linear-gradient(to right, black 75%, #FFFFE0 25%);
+}
+#fifth {
+	background: linear-gradient(to right, black 70%, #FFFFE0 30%);
+}
+#sixth {
+	background: linear-gradient(to right, black 50%, #FFFFE0 50%);
+}
+#seventh {
+	background: linear-gradient(to right, black 47%, #FFFFE0 47%);
+}
+#eigth {
+	background: linear-gradient(to right, black 30%, #FFFFE0 30%);
+}
+#ninth {
+	background: linear-gradient(to right, black 28%, #FFFFE0 28%);
+}
+#tenth {
+	background: linear-gradient(to right, black 23%, #FFFFE0 23%);
+}
+#eleventh {
+	background: linear-gradient(to right, black 21%, #FFFFE0 21%);
+}
+#twelfth {
+	background: linear-gradient(to right, black 20%, #FFFFE0 20%);
+}
+#thirteenth {
+	background: linear-gradient(to right, black 18%, #FFFFE0 18%);
+}
+#fourteenth {
+	background: linear-gradient(to right, red 10%, #FFFFE0 10%);
+}
+
