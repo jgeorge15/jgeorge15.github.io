@@ -70,25 +70,25 @@ a:hover {
 	color:  #A4A400;
 	background-color: #F0F0F0;
 	text-align: center;
-	font-family: Century Gothic;
+	font-family: "Century Gothic";
 	letter-spacing: 5px;
 }
 #subTitle {
 	color:  #A4A400;
 	background-color: #F0F0F0;
 	text-align: center;
-	font-family: Century Gothic;
+	font-family: "Century Gothic";
 	letter-spacing: 3px;
 }
 #tableHead{
 	font-weight: bolder;
 	background-color: #f7eaaa;
 	text-align: center;
-	font-family: Century Gothic;
+	font-family: "Century Gothic";
 }
 #tableHead1{
 	font-weight: bold;
-	font-family: Century Gothic;
+	font-family: "Century Gothic";
 }
 .forPrep {
 	font-weight: bolder;
@@ -111,7 +111,6 @@ a:hover {
 .navBar {
 	list-style-type: none;
     margin: 0;
-    padding: 20;
     overflow: hidden;
     background-color: #333;
 	width: 200px;
