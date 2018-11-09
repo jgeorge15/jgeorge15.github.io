@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Jaibu Part A</title>
+	<meta name="description" content="Assignment5"></meta>
+	<meta name="keywords" content="HTML"></meta>
+	<meta name="author" content="Jaibu George"></meta>
+	<script src="partA.js" type="text/javascript"></script>
+	<link rel="stylesheet" href="hw5.css"></link>
+</head>
+<body>
+<ul>
+  <li><a href="hw5.html">Home</a></li>
+  <li><a class="active" href="partA.html">Part A</a></li>
+  <li><a href="partB.html">Part B</a></li>
+  <li><a href="partC.html">Part C</a></li>
+</ul>
+<div id="mainPageContent">
+<div id="overlay"><p id="prompt">
+This helps show your employees payrolls
+enter the number of hours and click the Enter key
+type -1 or any negative number to finish
+ </p><input type="text" placeholder="Hours Worked" id="hours" onkeypress="javascript:calcPay(this);"/>
+</div>
+<div id="main_container">
+<h1>Payroll</h1>
+<p>Lets get started click <a href="javascript:myBlurFunction(1);javascript:itWasCalled();">here</a></p>
+<button onclick="javascript:location.reload();">Reset</button>
+<br/>
+<div id="mytable">   
+</div>
+</div>
+<a href="../index.html">Back to my homepage</a>
+</div>
+</body>
+</html>

@@ -48,6 +48,7 @@ function team2Scoring() {
   var text = finalScore.toString();
   document.Scores.team2.value = text;
 }
+document.cookie = "username=John Doe; expires=Thu, 18 Dec 2013 12:00:00 UTC";
 </script>
 <link href="project2.css" rel="stylesheet" type="text/css" />
 </head>
@@ -55,7 +56,7 @@ function team2Scoring() {
 <div id="overlay"><div id="popup"><p id="question">
 Popup text... </p><input id="answer1" type="button" value="Click Here For Answer" onclick='showAnswer()'/><p id="buttonClicked">
 </p>
-<a href="javascript:myBlurFunction(0);"><p id='nobody'>
+<a id="noone" href="javascript:myBlurFunction(0);"><p id='nobody'>
 Nobody got it right</p></a>
 <input id="team1Score" type="button" value="Team 1 Correct" onclick='javascript:myBlurFunction(0);team1Scoring();'/><input id="team2Score" type="button" value="Team 2 Correct" onclick='javascript:myBlurFunction(0);team2Scoring();'/>
 </div></div>
@@ -116,5 +117,7 @@ Team 2: <input id="score2" type="text" name="team2" value="0" readonly/><br />
 <br><br><br><br><br><br><br>
 <br><br><br><br><br><br><br>
 <a href="../index.html">Back to my homepage</a>
+<br/>
+<a href="https://youtu.be/_mI8R52kICU">YouTube Link: https://youtu.be/_mI8R52kICU</a>
 </body>
 </html>

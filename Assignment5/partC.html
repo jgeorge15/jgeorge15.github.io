@@ -1,0 +1,75 @@
+<!doctype html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Jaibu Part C</title>
+	<meta name="description" content="Assignment5"></meta>
+	<meta name="keywords" content="HTML"></meta>
+	<meta name="author" content="Jaibu George"></meta>
+	<script src="partC.js" type="text/javascript"></script>
+	<link rel="stylesheet" href="hw5.css"></link>
+</head>
+<body>
+<ul>
+  <li><a href="hw5.html">Home</a></li>
+  <li><a href="partA.html">Part A</a></li>
+  <li><a href="partB.html">Part B</a></li>
+  <li><a class="active" href="partC.html">Part C</a></li>
+</ul>
+<div id="mainPageContent">
+<h1>Part C</h1>
+<p>This is a matching game where you click two tiles to find matching photos</p>
+<p>Once all the tiles are turned and matched you win</p>
+<p>There are three difficulties and three photo options. Easy give you 8 seconds</p>
+<p>to memorize normal gives you 5 seconds and hard gives you 3 seconds.</p>
+<p>You can also choose between matching 8, 10 or 12 different pictures.</p>
+<form>
+  <input type="radio" name="gender" value="easy"> Easy
+  <input type="radio" name="gender" value="normal"> Normal
+  <input type="radio" name="gender" value="hard"> Hard</br>
+  <input type="radio" name="numOfPics" value="pics"> 8
+  <input type="radio" name="numOfPics" value="pics1"> 10
+  <input type="radio" name="numOfPics" value="pics2"> 12
+  <input type="submit" action='' value="Submit">
+</form>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+
+  <title>Memory Game</title>
+
+  <link rel="stylesheet" href="partC.css">
+</head>
+<body>
+<div id='game12'>
+	<a href="javascript:choose(0)"><img src="dog.jpg" width=200px height=200px /></a>
+    <a href="javascript:choose(1)"><img src="dog.jpg" width=200px height=200px /></a>
+    <a href="javascript:choose(2)"><img src="dog.jpg" width=200px height=200px /></a>
+	<a href="javascript:choose(3)"><img src="dog.jpg" width=200px height=200px /></a>
+	<br/>
+	<a href="javascript:choose(4)"><img src="dog.jpg" width=200px height=200px /></a>
+    <a href="javascript:choose(5)"><img src="dog.jpg" width=200px height=200px/></a>
+    <a href="javascript:choose(6)"><img src="dog.jpg" width=200px height=200px /></a>
+	<a href="javascript:choose(7)"><img src="dog.jpg" width=200px height=200px /></a>
+	<br/>
+    <a href="javascript:choose(8)"><img src="dog.jpg" width=200px height=200px /></a>
+	<a href="javascript:choose(9)"><img src="dog.jpg" width=200px height=200px /></a>
+	<a href="javascript:choose(10)"><img src="dog.jpg" width=200px height=200px /></a>
+	<a href="javascript:choose(11)"><img src="dog.jpg" width=200px height=200px /></a>
+    <br/>
+	<a href="javascript:choose(12)"><img src="dog.jpg" width=200px height=200px /></a>
+	<a href="javascript:choose(13)"><img src="dog.jpg" width=200px height=200px /></a>
+	<a href="javascript:choose(14)"><img src="dog.jpg" width=200px height=200px /></a>
+	<a href="javascript:choose(15)"><img src="dog.jpg" width=200px height=200px /></a>
+	<br/>
+	<b style="font-size:40px;"> MATCHES :</b>
+	<b style="font-size:60px;" id="matches"> 0 </b>
+</div>
+  <script src="partC.js"></script>
+</body>
+</html>
+<a href="../index.html">Back to my homepage</a>
+</div>
+</body>
+</html>

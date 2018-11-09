@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Jaibu Part B</title>
+	<meta name="description" content="Assignment5"></meta>
+	<meta name="keywords" content="HTML"></meta>
+	<meta name="author" content="Jaibu George"></meta>
+	<script src="partB.js" type="text/javascript"></script>
+	<link rel="stylesheet" href="hw5.css"></link>
+</head>
+<body>
+<ul>
+  <li><a href="hw5.html">Home</a></li>
+  <li><a href="partA.html">Part A</a></li>
+  <li><a class="active" href="partB.html">Part B</a></li>
+  <li><a href="partC.html">Part C</a></li>
+</ul>
+<div id="mainPageContent">
+<h1>Part B</h1>
+<p> This is a simple guessing game where you guess a number between 
+1 and 100.</p>
+<p>If you guess high it will say high and will say low if you're low.</p>
+<p>If you guess correctly it will say good guess and the game will restart</p>
+<p>You have 10 guesses</p>
+<br/>
+<button id="timeButton" onclick="javascript:startTheTime();">Let's Play!</button>
+<label id="min">00</label><label id="colon">:</label><label id="sec">00</label>
+<br/>
+<input type="text" placeholder="Enter your guess" id="guessButton"/>
+<br/>
+<button id="guessSubmit" onclick="javascript:guess();">Guess</button>
+<p id='prompt'></p>
+<p id='prompt1'>You have 10 guesses left</p>
+<p id='lastGame'></p>
+<a href="../index.html">Back to my homepage</a>
+</div>
+</body>
+</html>
