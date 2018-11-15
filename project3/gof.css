@@ -1,0 +1,28 @@
+body {
+  background-color: powderblue;
+}
+.myLifeGame {
+  display: table;
+  margin-left:auto; 
+  margin-right:auto;
+}
+.cellRow {
+  display: table-row;
+}
+.eachCell {
+  display: table-column;
+  float: left;
+  width: 12px;
+  height: 12px;
+  border: 1px solid gray;
+}
+.aliveCell {
+  background-color: black;
+}
+.controls {
+  margin-top: 10px;
+}
+.gridSpace {
+  height:auto;
+  width: auto;
+}
