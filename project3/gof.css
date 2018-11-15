@@ -23,6 +23,31 @@ body {
   margin-top: 10px;
 }
 .gridSpace {
+  margin-top: 10px;
   height:auto;
   width: auto;
+}
+#playButton {
+	visibility: hidden;
+}
+#nextButton {
+	visibility: hidden;
+}
+#button23{
+	visibility: hidden;
+}
+#stillLife {
+	visibility: hidden;
+}
+#lineCells {
+	visibility: hidden;
+}
+#addAToad {
+	visibility: hidden;
+}
+#gliderButton {
+	visibility: hidden;
+}
+#resetButton {
+	visibility: hidden;
 }

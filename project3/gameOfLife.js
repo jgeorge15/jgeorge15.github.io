@@ -193,6 +193,14 @@
 		var sizeX = $('#sizeofX');
 		var sizeY = $('#sizeofY');
 		$('#createButton').on('click', function () {
+			document.getElementById('playButton').style.visibility = 'visible';
+			document.getElementById('nextButton').style.visibility = 'visible';
+			document.getElementById('button23').style.visibility = 'visible';
+			document.getElementById('stillLife').style.visibility = 'visible';
+			document.getElementById('lineCells').style.visibility = 'visible';
+			document.getElementById('addAToad').style.visibility = 'visible';
+			document.getElementById('gliderButton').style.visibility = 'visible';
+			document.getElementById('resetButton').style.visibility = 'visible';
 			delete this.game;
 			var creatingMyGame = document.getElementsByClassName('myLifeGame')[0];
 			while (creatingMyGame.firstChild) {
